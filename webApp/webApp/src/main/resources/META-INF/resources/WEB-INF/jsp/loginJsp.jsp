@@ -42,9 +42,11 @@ body {
 </style>
 </head>
 <body>
+welcome to the login page ${name }
 	<div class="login-box">
 		<h2>Login</h2>
-		<form action="loginProcess.jsp" method="post">
+		<pre>${errorMessage }</pre>
+		<form method="post">
 			<input type="text" name="username" placeholder="Username" required><br>
 			<input type="password" name="password" placeholder="Password"
 				required><br> <input type="submit" value="Login">
