@@ -42,15 +42,17 @@ body {
 </style>
 </head>
 <body>
-welcome to the login page ${name }
-	<div class="login-box">
-		<h2>Login</h2>
-		<pre>${errorMessage }</pre>
-		<form method="post">
-			<input type="text" name="username" placeholder="Username" required><br>
-			<input type="password" name="password" placeholder="Password"
-				required><br> <input type="submit" value="Login">
-		</form>
+	<%-- welcome to the login page ${name } --%>
+	<div class="container">
+		<div class="login-box">
+			<h2>Login</h2>
+			<pre>${errorMessage}</pre>
+			<form method="post">
+				<input type="text" name="username" placeholder="Username" required><br>
+				<input type="password" name="password" placeholder="Password"
+					required><br> <input type="submit" value="Login">
+			</form>
+		</div>
 	</div>
 </body>
 </html>
